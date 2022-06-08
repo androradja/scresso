@@ -1,0 +1,110 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyNewSoundcloud" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/abu11</item>
+        <item name="colorSecondaryVariant">@color/abu11</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@color/fulltransparent</item>
+    </style>
+
+        <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorPrimaryVariant">@color/accent</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+
+    </style>
+
+    <style name="AppTheme.TransparentTheme">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/mainstatusbar</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:colorAccent">@color/accent</item>
+
+    </style>
+
+    <style name="AppTheme.TransparentTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MyProgressbar" parent="Widget.AppCompat.ProgressBar">
+        <item name="colorAccent">@color/abu11</item> <!-- Whatever color you want-->
+
+
+    </style>
+
+
+    <style name="MySearchview" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColorHint">@color/abu7</item>
+        <item name="android:editTextColor">@android:color/white</item>
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:textSize">16sp</item>
+
+    </style>
+    <style name="BottomNavigationView" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="fontFamily">@font/bold</item>
+    </style>
+    <style name="BottomNavigationView.Active" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="fontFamily">@font/bold</item>
+    </style>
+
+    <style name="H2" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/bold</item>
+        <item name="android:textSize">26sp</item>
+        <item name="maxLines">1</item>
+
+    </style>
+    <style name="H3" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="maxLines">1</item>
+
+    </style>
+
+    <style name="smalltext1" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="maxLines">1</item>
+
+    </style>
+
+    <style name="mediumtext2" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="maxLines">1</item>
+
+    </style>
+
+    <style name="caption2" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="maxLines">1</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+
+    <style name="normaltext3" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="maxLines">1</item>
+
+    </style>
+</resources>
